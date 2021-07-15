@@ -43,6 +43,9 @@ export class ApiService {
     return <Observable<Item[]>this.httpClient.get(this.dataURL);
   }
 }
+
+//https://houssein.me/angular2-hacker-news
+//https://medium.com/crowdbotics/learn-to-build-a-simple-progressive-web-app-pwa-with-angular-and-lighthouse-hacker-news-clone-51aca763032f
 ```
 app.component.ts
 ```ts
