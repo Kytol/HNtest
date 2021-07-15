@@ -1,0 +1,12 @@
+<div style="text-align:center" class="header">
+  <h1>
+    Welcome to HN PWA Demo
+  </h1>
+
+</div>
+<h2 class="subtext">Here are some links to Start Your Day:</h2>
+<ul *ngFor="let item of items" class="title">
+  <li>
+    <h2><a href={{item.url}}>{{item.title}}</a></h2>
+  </li>
+</ul>
